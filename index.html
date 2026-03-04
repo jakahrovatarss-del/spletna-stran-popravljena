@@ -1,0 +1,328 @@
+<!DOCTYPE html>
+<html lang="sl">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-Content-Type-Options" content="nosniff">
+    <meta name="referrer" content="strict-origin-when-cross-origin">
+    <!-- Preload hero background for LCP -->
+    <link rel="preload" as="image" href="./hero-bg.webp" type="image/webp" fetchpriority="high">
+    <link rel="icon" type="image/svg+xml" href="/vite.svg" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>ARSS - Pametno upravljanje vode</title>
+    <meta name="description"
+        content="Pametne rešitve za upravljanje vode. Za gospodinjstva in industrijo. Odkrijte puščanje, varčujte vodo in denar.">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;500;600;700;800&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="./style.css">
+</head>
+
+<body>
+    <div id="app">
+        <!-- Navigation -->
+        <header class="header">
+            <div class="container nav-container">
+                <a href="index.html" class="logo" title="ARSS - Domov">
+                    <img src="https://arss.si/wp-content/uploads/2022/12/ARSS_logo2022.png" alt="ARSS Logo" width="86" height="95">
+                </a>
+                <button class="mobile-menu-btn" aria-label="Odpri meni">
+                    <span class="bar"></span>
+                    <span class="bar"></span>
+                    <span class="bar"></span>
+                </button>
+                <nav class="nav-links">
+                    <a href="index.html" class="nav-link active" title="Domov">Domov</a>
+
+                    <div class="dropdown">
+                        <a href="gospodinjstva.html" class="nav-link" title="Za gospodinjstva - pametni vodomeri">Gospodinjstva ▾</a>
+                        <div class="dropdown-content">
+                            <a href="gospodinjstva.html#features" title="Prednosti za gospodinjstva">Prednosti</a>
+                            <a href="gospodinjstva.html#how-it-works" title="Kako deluje - gospodinjstva">Kako deluje</a>
+                            <a href="gospodinjstva.html#packages" title="Paketi za gospodinjstva">Paketi</a>
+                            <a href="gospodinjstva.html#faq" title="Pogosta vprašanja - gospodinjstva">Pogosta vprašanja</a>
+                        </div>
+                    </div>
+
+                    <div class="dropdown">
+                        <a href="industrija.html" class="nav-link" title="Za industrijo in vodovode">Industrija ▾</a>
+                        <div class="dropdown-content">
+                            <a href="merjenje.html" title="Pametni vodomeri">Pametni vodomeri</a>
+                            <a href="komunikacija.html" title="Komunikacijske rešitve">Komunikacija</a>
+                            <a href="programska-oprema.html" title="AURA Platforma">AURA Platforma</a>
+                            <a href="industrija.html#references" title="Reference">Reference</a>
+                            <a href="industrija.html#packages" title="Paketi za industrijo">Paketi</a>
+                        </div>
+                    </div>
+
+                    <a href="#about" class="nav-link" title="Pojdi na sekcijo O nas">O nas</a>
+                    <a href="#contact" class="nav-link" title="Pojdi na kontaktni obrazec">Kontakt</a>
+                </nav>
+            </div>
+        </header>
+
+        <main>
+        <!-- Hero Section -->
+        <section class="hero">
+            <div class="hero-bg"
+                style="background: linear-gradient(135deg, rgba(10, 25, 47, 0.85) 0%, rgba(17, 34, 64, 0.9) 100%), url('./hero-bg.webp') center/cover no-repeat;">
+            </div>
+            <div class="container">
+                <div class="hero-content" style="text-align: center; margin: 0 auto; max-width: 800px;">
+                    <h1 class="hero-title">Pametno upravljanje z vodo</h1>
+                    <p class="hero-subtitle">Odkrijte puščanje, preden pride račun. Varčujte vodo, varčujte denar.</p>
+                    <div class="hero-actions" style="justify-content: center;">
+                        <a href="gospodinjstva.html" class="btn-primary" title="Za gospodinjstva - pametni vodomeri">Za gospodinjstva</a>
+                        <a href="industrija.html" class="btn-secondary" title="Za industrijo in vodovode">Za industrijo</a>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Who We Serve Section -->
+        <section class="section">
+            <div class="container">
+                <h2 class="section-title text-center">Kdo smo</h2>
+                <p class="text-center" style="max-width: 700px; margin: 0 auto 3rem; font-size: 1.1rem;">
+                    Ponujamo pametne rešitve za upravljanje vode. Izberite, kaj vas zanima:
+                </p>
+                <div class="grid-2" style="gap: 2rem; max-width: 1000px; margin: 0 auto;">
+                    <!-- Households Card -->
+                    <a href="gospodinjstva.html" class="glass-card" title="Za vaš dom - pametni vodomeri"
+                        style="text-decoration: none; color: inherit; cursor: pointer; transition: transform 0.3s ease, box-shadow 0.3s ease; display: block;">
+                        <div
+                            style="width: 100%; height: 150px; margin-bottom: 1.5rem; border-radius: 12px; overflow: hidden;">
+                            <picture>
+                                <source srcset="./images/family-white.webp 520w" type="image/webp">
+                                <img src="./images/family-white.png" alt="Družina"
+                                    srcset="./images/family-white.png 520w"
+                                    style="width: 100%; height: 100%; object-fit: cover;" width="520" height="150">
+                            </picture>
+                        </div>
+                        <h3 style="font-size: 2rem; margin-bottom: 1rem;">Za vaš dom</h3>
+                        <p style="font-size: 1.1rem; line-height: 1.6; margin-bottom: 1.5rem;">
+                            Pametni vodomer, ki vas obvesti o puščanju in vam pomaga varčevati. Enostavno, dostopno,
+                            učinkovito.
+                        </p>
+                        <ul class="card-list">
+                            <li>Mesečna naročnina že od 4€</li>
+                            <li>Takojšnja obvestila o puščanju</li>
+                            <li>Mobilna aplikacija za spremljanje</li>
+                            <li>Prihranek do 30% stroškov vode</li>
+                        </ul>
+                        <div class="btn-primary"
+                            style="margin-top: 2rem; text-align: center; display: inline-block; width: 100%;">
+                            Izvedite več →
+                        </div>
+                    </a>
+
+                    <!-- Industry Card -->
+                    <a href="industrija.html" class="glass-card" title="Za vašo industrijo - tehnološke rešitve"
+                        style="text-decoration: none; color: inherit; cursor: pointer; transition: transform 0.3s ease, box-shadow 0.3s ease; display: block;">
+                        <div
+                            style="width: 100%; height: 150px; margin-bottom: 1.5rem; border-radius: 12px; overflow: hidden;">
+                            <picture>
+                                <source srcset="./images/smart-city.webp 520w" type="image/webp">
+                                <img src="./images/smart-city.png" alt="Industrija"
+                                    srcset="./images/smart-city.png 520w"
+                                    style="width: 100%; height: 100%; object-fit: cover;" width="520" height="150">
+                            </picture>
+                        </div>
+                        <h3 style="font-size: 2rem; margin-bottom: 1rem;">Za vašo industrijo</h3>
+                        <p style="font-size: 1.1rem; line-height: 1.6; margin-bottom: 1.5rem;">
+                            Celovit sistem za vodovode, industrijo in večstanovanjske objekte. Zmanjšajte izgube,
+                            optimizirajte stroške.
+                        </p>
+                        <ul class="card-list">
+                            <li>AURA platforma za upravljanje omrežja</li>
+                            <li>Nadzorni center 24/7</li>
+                            <li>Integracija z vašimi sistemi</li>
+                            <li>Prilagojene rešitve po meri</li>
+                        </ul>
+                        <div class="btn-secondary"
+                            style="margin-top: 2rem; text-align: center; display: inline-block; width: 100%;">
+                            Tehnične rešitve →
+                        </div>
+                    </a>
+                </div>
+            </div>
+        </section>
+
+        <!-- About Section -->
+        <section id="about" class="section bg-dark text-white">
+            <div class="container">
+                <div class="grid-2">
+                    <div>
+                        <h2 class="section-title text-white">O Podjetju ARSS</h2>
+                        <p class="lead" style="color: rgba(255,255,255,0.9);">Vodilni ponudnik pametnih rešitev za
+                            upravljanje z vodo v regiji.</p>
+                        <p style="color: rgba(255,255,255,0.8);">Od leta 2003 razvijamo inovativne rešitve za vodovodne
+                            sisteme. Naša vizija je digitalizacija
+                            vodovodnega omrežja za zmanjšanje izgub in optimizacijo stroškov.</p>
+                        <div class="stats-grid"
+                            style="margin-top: 2rem; display: grid; grid-template-columns: repeat(2, 1fr); gap: 1.5rem;">
+                            <div class="stat-item">
+                                <div class="stat-number"
+                                    style="font-size: 2.5rem; font-weight: 700; color: var(--accent);">
+                                    50+</div>
+                                <div class="stat-label" style="color: rgba(255,255,255,0.8);">Vodovodov</div>
+                            </div>
+                            <div class="stat-item">
+                                <div class="stat-number"
+                                    style="font-size: 2.5rem; font-weight: 700; color: var(--accent);">
+                                    180M+</div>
+                                <div class="stat-label" style="color: rgba(255,255,255,0.8);">Odčitkov</div>
+                            </div>
+                        </div>
+                        <div style="margin-top: 2rem;">
+                            <a href="https://arss.si/wp-content/uploads/2023/09/ARSS-Leading-the-Way-in-Remote-Water-Metering.pdf"
+                                target="_blank" rel="noopener noreferrer" class="btn-secondary" title="Prenesi predstavitev ARSS (PDF)">Prenesi predstavitev
+                                (PDF)</a>
+                        </div>
+                    </div>
+                    <div class="glass-card">
+                        <h3>Naša Zgodovina</h3>
+                        <ul class="timeline">
+                            <li class="timeline-item">
+                                <span class="year">2003</span>
+                                <p>Ustanovitev podjetja ARSS</p>
+                            </li>
+                            <li class="timeline-item">
+                                <span class="year">2015</span>
+                                <p>Prvi iPerl pametni vodomeri</p>
+                            </li>
+                            <li class="timeline-item">
+                                <span class="year">2017</span>
+                                <p>Lansiranje AURA platforme</p>
+                            </li>
+                            <li class="timeline-item">
+                                <span class="year">2020</span>
+                                <p>Implementacija NB-IoT tehnologije</p>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- FAQ Section -->
+        <section class="section">
+            <div class="container">
+                <div class="section-header text-center">
+                    <h2 class="section-title">Pogosta vprašanja</h2>
+                </div>
+                <div class="faq-container" style="max-width: 800px; margin: 0 auto;">
+                    <div class="faq-item glass-card">
+                        <button class="faq-question">
+                            <span>Kako deluje pametni vodomer?</span>
+                            <span class="faq-icon">+</span>
+                        </button>
+                        <div class="faq-answer">
+                            <p>Pametni vodomer meri porabo vode in te podatke pošilja preko mobilnega omrežja (NB-IoT)
+                                v oblak. Vi lahko kadarkoli preverite porabo na telefonu ali računalniku. Če sistem
+                                zazna puščanje (npr. stalen pretok ponoči), vas takoj obvesti.</p>
+                        </div>
+                    </div>
+                    <div class="faq-item glass-card">
+                        <button class="faq-question">
+                            <span>Ali potrebujem internet doma?</span>
+                            <span class="faq-icon">+</span>
+                        </button>
+                        <div class="faq-answer">
+                            <p>Ne! Vodomer uporablja mobilno omrežje (NB-IoT), zato ne potrebujete WiFi-ja. Podatke
+                                lahko gledate v mobilni aplikaciji AURA ali spletnem portalu.</p>
+                        </div>
+                    </div>
+                    <div class="faq-item glass-card">
+                        <button class="faq-question">
+                            <span>Koliko stane?</span>
+                            <span class="faq-icon">+</span>
+                        </button>
+                        <div class="faq-answer">
+                            <p>Za gospodinjstva ponujamo pakete od 4€/mesec (Srebrni) do 7€/mesec (Zlati) za napredne
+                                funkcije. Za industrijo in vodovode pa pripravljamo ponudbe po meri glede na obseg
+                                projekta.</p>
+                        </div>
+                    </div>
+                    <div class="faq-item glass-card">
+                        <button class="faq-question">
+                            <span>Kdo namesti vodomer?</span>
+                            <span class="faq-icon">+</span>
+                        </button>
+                        <div class="faq-answer">
+                            <p>Namestitev opravijo naši certificirani tehniki ali tehniki vašega vodovoda. Namestitev
+                                traja približno 1 uro in ne zahteva dodatnih gradbenih del.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Contact Section -->
+        <section id="contact" class="section bg-dark text-white">
+            <div class="container">
+                <div class="grid-2">
+                    <div>
+                        <h2 class="section-title text-white">Stopite v stik</h2>
+                        <p class="mb-4" style="color: rgba(255,255,255,0.9);">Želite izvedeti več o tem, kako lahko
+                            optimizirate svojo porabo vode?</p>
+                        <div class="contact-info">
+                            <div class="contact-item">
+                                <span class="label">Naslov:</span>
+                                <span class="value">Gosjakova ulica 3, 8000 Novo mesto</span>
+                            </div>
+                            <div class="contact-item">
+                                <span class="label">Telefon:</span>
+                                <span class="value"><a href="tel:+38630680160" class="text-white" title="Pokliči ARSS">+386 30 680 160</a></span>
+                            </div>
+                            <div class="contact-item">
+                                <span class="label">Email:</span>
+                                <span class="value"><a href="mailto:jakahrovat.arss@gmail.com"
+                                        class="text-white" title="Pošlji email na ARSS">jakahrovat.arss@gmail.com</a></span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="map-container glass-card">
+                        <form class="contact-form" action="https://formsubmit.co/d39b2fbdcfcfea72f645c1346b5018ef"
+                            method="POST">
+                            <input type="hidden" name="_subject" value="Nova povpraševanje - Domov">
+                            <input type="hidden" name="_captcha" value="false">
+                            <input type="hidden" name="_next"
+                                value="https://jakahrovatarss-del.github.io/arss-spletna-stran-/hvala.html">
+                            <div class="form-group">
+                                <label for="name">Ime in priimek</label>
+                                <input type="text" id="name" name="name" placeholder="Janez Novak" required>
+                            </div>
+                            <div class="form-group">
+                                <label for="email">E-poštni naslov</label>
+                                <input type="email" id="email" name="email" placeholder="janez@primer.si" required>
+                            </div>
+                            <div class="form-group">
+                                <label for="message">Sporočilo</label>
+                                <textarea id="message" name="message" rows="4" placeholder="Vaše sporočilo..."
+                                    required></textarea>
+                            </div>
+                            <button type="submit" class="btn-primary w-full">Pošlji sporočilo</button>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        </main>
+
+        <footer class="footer">
+            <div class="container text-center">
+                <p>&copy; 2025 ARSS d.o.o. Vse pravice pridržane.</p>
+            </div>
+        </footer>
+    </div>
+
+    <script src="./cookie-consent.js" defer></script>
+    <script src="./analytics-config.js" defer></script>
+    <script src="./form-config.js" defer></script>
+    <script src="./main.js" defer></script>
+</body>
+
+</html>
