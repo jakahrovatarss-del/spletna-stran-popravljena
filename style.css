@@ -501,10 +501,16 @@ h3 {
 .comparison-table tbody tr {
   border-bottom: 1px solid #e2e8f0;
   transition: var(--transition);
+  background: #fafbfc;
+}
+
+.comparison-table tbody tr:nth-child(odd) {
+  background: white;
 }
 
 .comparison-table tbody tr:hover {
-  background-color: rgba(15, 158, 213, 0.05);
+  background-color: rgba(15, 158, 213, 0.08);
+  box-shadow: inset 0 0 8px rgba(15, 158, 213, 0.1);
 }
 
 .comparison-table tbody tr:last-child {
@@ -535,22 +541,39 @@ h3 {
 
 .value-badge {
   display: inline-block;
-  padding: 0.5rem 1rem;
-  border-radius: var(--radius-sm);
+  padding: 0.6rem 1.2rem;
+  border-radius: var(--radius-md);
   font-size: 0.9rem;
-  font-weight: 500;
+  font-weight: 600;
+  transition: all 0.3s ease;
+  line-height: 1.4;
 }
 
 .value-badge.traditional {
-  background: rgba(239, 68, 68, 0.1);
-  color: #dc2626;
-  border: 1px solid rgba(239, 68, 68, 0.2);
+  background: rgba(239, 68, 68, 0.12);
+  color: #991b1b;
+  border: 1.5px solid rgba(239, 68, 68, 0.3);
+  box-shadow: 0 2px 4px rgba(239, 68, 68, 0.1);
+}
+
+.value-badge.traditional:hover {
+  background: rgba(239, 68, 68, 0.18);
+  border-color: rgba(239, 68, 68, 0.5);
 }
 
 .value-badge.arss {
-  background: rgba(16, 185, 129, 0.1);
-  color: #059669;
-  border: 1px solid rgba(16, 185, 129, 0.2);
+  background: rgba(16, 185, 129, 0.15);
+  color: #065f46;
+  border: 1.5px solid rgba(16, 185, 129, 0.4);
+  box-shadow: 0 4px 12px rgba(16, 185, 129, 0.2);
+  font-weight: 700;
+}
+
+.value-badge.arss:hover {
+  background: rgba(16, 185, 129, 0.22);
+  border-color: rgba(16, 185, 129, 0.6);
+  box-shadow: 0 6px 16px rgba(16, 185, 129, 0.25);
+  transform: translateY(-1px);
 }
 
 .check-mark {
