@@ -17,7 +17,9 @@
     <meta property="og:title" content="Za gospodinjstva - ARSS Pametno upravljanje vode">
     <meta property="og:description" content="Prihranite vodo in denar v svojem domu s pametnim vodomerom ARSS. Enostavna namestitev, spremljanje v realnem času, takojšnja obvestila o puščanju.">
     <meta property="og:url" content="https://jakahrovatarss-del.github.io/arss-spletna-stran-/gospodinjstva.html">
-    <meta property="og:image" content="https://arss.si/wp-content/uploads/2022/12/ARSS_logo2022.png">
+    <meta property="og:image" content="https://jakahrovatarss-del.github.io/arss-spletna-stran-/og-images/gospodinjstva-og.png">
+    <meta property="og:image:width" content="1200">
+    <meta property="og:image:height" content="630">
     <meta name="twitter:card" content="summary_large_image">
     <meta name="twitter:title" content="Za gospodinjstva - ARSS Pametno upravljanje vode">
     <meta name="twitter:description" content="Prihranite vodo in denar v svojem domu s pametnim vodomerom ARSS. Enostavna namestitev, spremljanje v realnem času, takojšnja obvestila o puščanju.">
@@ -27,6 +29,26 @@
     <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;500;600;700;800&display=swap"
         rel="stylesheet">
     <link rel="stylesheet" href="./style.css">
+    <script type="application/ld+json">
+    {
+      "@context": "https://schema.org",
+      "@type": "BreadcrumbList",
+      "itemListElement": [
+        {
+          "@type": "ListItem",
+          "position": 1,
+          "name": "Domov",
+          "item": "https://jakahrovatarss-del.github.io/arss-spletna-stran-/"
+        },
+        {
+          "@type": "ListItem",
+          "position": 2,
+          "name": "Za gospodinjstva",
+          "item": "https://jakahrovatarss-del.github.io/arss-spletna-stran-/gospodinjstva.html"
+        }
+      ]
+    }
+    </script>
     <script type="application/ld+json">
     {
       "@context": "https://schema.org",
@@ -75,7 +97,40 @@
       ]
     }
     </script>
-</head>
+    <script type="application/ld+json">
+    {
+      "@context": "https://schema.org",
+      "@type": "Product",
+      "name": "ARSS Pametne rešitve za gospodinjstva",
+      "description": "Pametni vodomeri z spremljanjem v realnem času za varčevanje vode in denar",
+      "brand": {"@type": "Brand", "name": "ARSS"},
+      "aggregateOffer": {
+        "@type": "AggregateOffer",
+        "priceCurrency": "EUR",
+        "lowPrice": "4.00",
+        "highPrice": "7.00",
+        "offerCount": "2",
+        "offers": [
+          {
+            "@type": "Offer",
+            "name": "Srebrni paket",
+            "description": "Osnovno spremljanje za varčne družine - mesečni pregled porabe in opozorila za puščanje",
+            "price": "4.00",
+            "priceCurrency": "EUR",
+            "availability": "https://schema.org/InStock"
+          },
+          {
+            "@type": "Offer",
+            "name": "Zlati paket",
+            "description": "Popoln nadzor in mir - spremljanje v realnem času 24/7, takojšnja obvestila (SMS + push), napredna analitika",
+            "price": "7.00",
+            "priceCurrency": "EUR",
+            "availability": "https://schema.org/InStock"
+          }
+        ]
+      }
+    }
+    </script>
 
 <body>
     <div id="app">
@@ -151,8 +206,11 @@
                         <div class="card-icon" style="font-size: 3rem; margin: 0 auto;">⚠️</div>
                         <h3>Problem</h3>
                         <div class="card-img-container">
-                            <img src="./images/problem-leak.png" alt="Puščajoča pipa" class="img-enhanced"
-                                loading="lazy">
+                            <picture>
+                                <source srcset="./images/problem-leak.webp" type="image/webp">
+                                <img src="./images/problem-leak.png" alt="Puščajoča pipa" class="img-enhanced"
+                                    loading="lazy">
+                            </picture>
                         </div>
                         <p style="margin-top: auto;">Visok račun za vodo? WC kotliček pušča in vi tega ne veste.
                             Puščanje lahko mesečno
@@ -165,8 +223,11 @@
                         <div class="card-icon" style="font-size: 3rem; margin: 0 auto;">📱</div>
                         <h3>Rešitev</h3>
                         <div class="card-img-container">
-                            <img src="./images/app-mockup.png" alt="AURA Aplikacija" class="img-enhanced"
-                                loading="lazy">
+                            <picture>
+                                <source srcset="./images/app-mockup.webp" type="image/webp">
+                                <img src="./images/app-mockup.png" alt="AURA Aplikacija" class="img-enhanced"
+                                    loading="lazy">
+                            </picture>
                         </div>
                         <p style="margin-top: auto;">Pametni vodomer zazna puščanje in <strong>vas takoj
                                 obvesti</strong> na telefon.
@@ -177,7 +238,10 @@
                         <div class="card-icon" style="font-size: 3rem; margin: 0 auto;">💰</div>
                         <h3>Rezultat</h3>
                         <div class="card-img-container">
-                            <img src="./images/family.png" alt="Zadovoljna družina" class="img-enhanced" loading="lazy">
+                            <picture>
+                                <source srcset="./images/family.webp" type="image/webp">
+                                <img src="./images/family.png" alt="Zadovoljna družina" class="img-enhanced" loading="lazy">
+                            </picture>
                         </div>
                         <p style="margin-top: auto;">Družine <strong>prihranijo do 30%</strong> stroškov za vodo.
                             Povprečno 300€ letno!

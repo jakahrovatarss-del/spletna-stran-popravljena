@@ -12,12 +12,11 @@ Allow: /
 User-agent: Bingbot
 Allow: /
 
-# Disallow indexing of temporary folders
+# Disallow indexing of temporary folders only
 Disallow: /temp_*
 Disallow: /resources/
-Disallow: /images/
 
-# Sitemap location
+# Images are allowed for Google Images search results
 Sitemap: https://jakahrovatarss-del.github.io/arss-spletna-stran-/sitemap.xml
 
 # Crawl delay (optional - in seconds)
