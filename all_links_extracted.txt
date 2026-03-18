@@ -1,0 +1,67 @@
+#about
+#advantages
+#contact
+#how-it-works
+#namestitev
+#packages
+#products
+#spremljanje
+#varcevanje
+./analytics-config.js
+./cookie-consent.js
+./form-config.js
+./hero-bg.webp
+./images/ARSS_logo2022.webp
+./images/apartment.webp
+./images/app-mockup.png
+./images/app-mockup.webp
+./images/electo-sonic-3q (1).webp
+./images/family-white.webp
+./images/family.webp
+./images/maddalena logo.webp
+./images/problem-leak.webp
+./images/sensus-logo.webp
+./images/slika meistream vodomera.webp
+./images/slika meitwin vodomera.webp
+./images/slika residia jet vodomera.webp
+./images/smart-city.webp
+./images/smart-meter.webp
+./images/vodomer-120.webp
+./images/wpv-ms 150 slika.webp
+./main.js
+./style.css
+/vite.svg
+gospodinjstva.html
+gospodinjstva.html#faq
+gospodinjstva.html#features
+gospodinjstva.html#how-it-works
+gospodinjstva.html#packages
+https://arss.si
+https://arss.si/wp-content/uploads/2018/11/Aura-140x300.webp
+https://arss.si/wp-content/uploads/2018/11/EN-120-Data-Sheet.pdf
+https://arss.si/wp-content/uploads/2018/11/EN-MeiStream-Data-Sheet-1.pdf
+https://arss.si/wp-content/uploads/2018/11/EN-ResidiaJet-Data-Sheet-1.pdf
+https://arss.si/wp-content/uploads/2018/11/EN-iPERL-Intl-Data-Sheet.pdf
+https://arss.si/wp-content/uploads/2018/12/EN-MeiTwin-Data-Sheet-1.pdf
+https://arss.si/wp-content/uploads/2018/12/EN-WPV-MS-Data-Sheet-1.pdf
+https://arss.si/wp-content/uploads/2023/09/ARSS-Leading-the-Way-in-Remote-Water-Metering.pdf
+https://fonts.googleapis.com
+https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;500;600;700;800&display=swap
+https://fonts.gstatic.com
+https://skupnosti.aura-portal.com/
+https://www.maddalena.it/wp-content/uploads/catalog-pdf/schedatecnica-electosonic-en-v1.pdf
+index.html
+index.html#about
+index.html#contact
+index.html#pricing
+industrija.html
+industrija.html#contact
+industrija.html#packages
+industrija.html#references
+komunikacija.html
+mailto:jakahrovat.arss@gmail.com
+merjenje.html
+programska-oprema.html
+referenca-komunala.html
+referenca-vecstanovanjski.html
+tel:+38630680160
