@@ -1110,12 +1110,7 @@ h3 {
 
 .form-message-error {
   background: rgba(239, 68, 68, 0.1);
-
-  *::after {
-    animation-duration: 0.01ms !important;
-    animation-iteration-count: 1 !important;
-    transition-duration: 0.01ms !important;
-  }
+    /* Removed invalid *::after selector and its properties due to CSS parse error */
 }
 
 /* Timeline Text Fix */

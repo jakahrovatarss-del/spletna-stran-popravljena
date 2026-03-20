@@ -3,16 +3,18 @@
 
 <head>
     <meta charset="UTF-8" />
-    <meta http-equiv="X-Content-Type-Options" content="nosniff">
     <meta name="referrer" content="strict-origin-when-cross-origin">
     <!-- Preload hero background for LCP -->
     <link rel="preload" as="image" href="./hero-bg.webp" type="image/webp" fetchpriority="high">
-    <link rel="icon" type="image/svg+xml" href="/vite.svg" />
+    <!-- Removed vite.svg favicon reference to fix 404 error -->
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>ARSS - Pametno upravljanje vode</title>
+    <title>ARSS - Pametno upravljanje vode | Pametni vodomeri in IoT rešitve</title>
     <meta name="description"
         content="Pametne rešitve za upravljanje vode. Za gospodinjstva in industrijo. Odkrijte puščanje, varčujte vodo in denar.">
-    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <meta name="keywords" content="pametni vodomer, upravljanje vode, IoT, NB-IoT, ARSS">
+    <meta name="author" content="ARSS">
+    <meta name="robots" content="index, follow">
+<link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;500;600;700;800&display=swap"
         rel="stylesheet">
@@ -60,11 +62,12 @@
                             <div
                                 style="width: 100%; height: 150px; margin-bottom: 1.5rem; border-radius: 12px; overflow: hidden;">
                                 <picture>
-                                    <source srcset="./images/family-white.webp 520w" type="image/webp">
+                                    <source srcset="./images/family-white.webp 520w" type="image/webp" sizes="(max-width: 520px) 100vw, 520px">
                                     <img src="./images/family-white.webp" alt="Družina"
                                         srcset="./images/family-white.webp 520w"
+                                        sizes="(max-width: 520px) 100vw, 520px"
                                         style="width: 100%; height: 100%; object-fit: cover;" width="520" height="150"
-                                        title="/">
+                                        title="Družina">
                                 </picture>
                             </div>
                             <h3 style="font-size: 2rem; margin-bottom: 1rem;">Za vaš dom</h3>
@@ -91,11 +94,12 @@
                             <div
                                 style="width: 100%; height: 150px; margin-bottom: 1.5rem; border-radius: 12px; overflow: hidden;">
                                 <picture>
-                                    <source srcset="./images/smart-city.webp 520w" type="image/webp">
+                                    <source srcset="./images/smart-city.webp 520w" type="image/webp" sizes="(max-width: 520px) 100vw, 520px">
                                     <img src="./images/smart-city.webp" alt="Industrija"
                                         srcset="./images/smart-city.webp 520w"
+                                        sizes="(max-width: 520px) 100vw, 520px"
                                         style="width: 100%; height: 100%; object-fit: cover;" width="520" height="150"
-                                        title="/">
+                                        title="Industrija">
                                 </picture>
                             </div>
                             <h3 style="font-size: 2rem; margin-bottom: 1rem;">Za vašo industrijo</h3>
