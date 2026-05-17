@@ -189,7 +189,7 @@ h3 {
 }
 
 .komunikacija-hero .hero-bg {
-  background-image: linear-gradient(135deg, rgba(10, 25, 47, 0.68) 0%, rgba(17, 34, 64, 0.74) 100%), url('./images/slika nasega portala brez ozadja-overlay.jpeg');
+  background-image: linear-gradient(135deg, rgba(10, 25, 47, 0.68) 0%, rgba(17, 34, 64, 0.74) 100%), url('./images/slika nasega portala brez ozadja-overlay.webp');
   background-position: center center, center 60%;
   background-repeat: no-repeat, no-repeat;
   background-size: cover, min(1250px, 96vw);
@@ -1191,7 +1191,7 @@ h3 {
 }
 
 .dropdown:hover .dropdown-content {
-  display: none;
+  display: block;
 }
 
 .dropdown.active .dropdown-content {
